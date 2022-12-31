@@ -1,0 +1,131 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+hr {
+  border-style: none;
+  background-color: transparent;
+  border-color: #7a5c3c;
+  border-width: 7px;
+  width: 10%;
+  border-top-style: dotted;
+}
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem; /*16px = 100%= 1em */
+  margin: 50px auto 0px auto;
+  /* color: #655443; */
+  color: #594545;
+}
+h2 {
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #815b5b;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #bd9393;
+}
+/******************** ID **********************/
+
+/************** CLASS ***************/
+/*.name {
+  height: auto;
+  width: 200px;
+}*/
+.skill {
+  margin-top: 5%;
+}
+.top-contaner {
+  background-color: #f6f5f5;
+
+  padding: 100px;
+  position: relative;
+}
+
+.bottom-container {
+  background-color: #bf9270;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.computer {
+  /* border-radius: 25%; */
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.chillies {
+  /* border-radius: 25%; */
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.profile {
+  width: 50%;
+  margin: 100px auto;
+  /* auto margin cenetr everything */
+  text-align: center;
+  line-height: 200%;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  /* auto margin cenetr everything */
+  text-align: left;
+  line-height: 200%;
+}
+.contact-me {
+  padding: 55px;
+}
+.button-63 {
+  align-items: center;
+  background-image: linear-gradient(
+    90deg,
+    rgba(195, 176, 145, 1) 0%,
+    rgba(228, 205, 167, 1) 35%,
+    rgba(255, 230, 188, 1) 100%
+  );
+  margin: 10px 0 0 0;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: inline-block;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
